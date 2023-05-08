@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icon/partner.png" alt="logo" class="logo-img"/>
+				<h1 class="logo-title">Feel-IX</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li>
+					<li><a onclick="redirWhatsapp()">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container"></div>
+		<div class="intro">
+			<p class="title">Felix Here!</p>
+			<p class="description">Senggol donggg! Kelasssss</p>
+			<img src="assets/foto/marsha1.jpg" alt="Marsha Foto 1" class="img-foto"/>
+		</div>
+	<div class="parallax">
+		<div class="tentang">
+			<p class="title">Web Apenih?!</p>
+			<p class="description">Testing doank brody wkkwwk</p>
+			<div class="mt-10">
+				<button class="btn-cta" onclick="redirWhatsapp()">Kenalan Kuy</button>
+			</div>
+		</div>
+			<div class="container">
+				<div class="card" id="jasa">
+					<div class="card-item">
+						<img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+						<p class="card-title">No Game No Party</p>
+						<p class="card-description">Gak WS gak tidur</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/hot-deal.png" alt="icon 2" class="icon"/>
+						<p class="card-title">Butuh Joki?</p>
+						<p class="card-description">WS Atau LS Tergantung Budget mwehehe</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/rating.png" alt="icon 3" class="icon"/>
+						<p class="card-title">Jasa Lainnya</p>
+						<p class="card-description">Siap Adu Bacod Dengan Warga Epic</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p class="title">&copy; Felix Pmpbne Website 2023</p>
+	</footer>
+
+	<script>
+		function redirInstagram() {
+			window.location.href= "https://www.instagram.com/im_feel_ix/?hl=id"
+		}
+		function redirWhatsapp() {
+			window.location.href= "https://wa.me/+6287737648294"
+		}
+	</script>
+	</body>
+</html>
